@@ -15,32 +15,29 @@
 ^FO50,360^FD  Boxes:^FS
 
 ^FT240,232^A0N,40,40
-^FC%,{,#
-^FH\^CI28^FD%d/%m/%Y^FS^CI27
+^FD{current_date}^FS
 ^FT440,232^A0N,28,28
-^FC%,{,#
-^FH\^CI28^FD%H:%M^FS^CI27
+^FD{current_time}^FS
 
 ^FX Pallet data
 ^CF0,40
-^FO240,255^FD001^FS
-^FO240,305^FD002^FS
-^FO240,355^FD003^FS
+^FO240,255^FD{s}^FS
+^FO240,305^FD{p}^FS
+^FO240,355^FD{b}^FS
 
 ^FX Third section weight & QR.
 ^CF0,40^FO120,460^FDGr. Weight:^FS
 ^FO90,500^GB250,3,3^FS
-^CF0,60^FO100,520^FD780.50 kg^FS
+^CF0,60^FO100,520^FD{w} kg^FS
 
 ^FX QR code.
 ^FO480,415
 ^BQN,2,6
-^FC%,{,#
-^FH
-^FDQA,00500,00001,00004,0069.00,OUT,00004,^FS
+^FDQA,{qr_data}^FS
 
 ^FO50,670^GB700,80,3^FS ^FX Box
 ^CF0,40
-^FO150,695^FDOUT [ 00004 ]^FS
+^FO150,695^FD{mawared_text}^FS
 
+^PQ{copy_count}
 ^XZ
