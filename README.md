@@ -1,2 +1,0 @@
-# mawared
-zpl template
