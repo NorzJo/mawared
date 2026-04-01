@@ -28,7 +28,7 @@
 ^FX Third section weight & QR.
 ^CF0,40^FO120,460^FDGr. Weight:^FS
 ^FO90,500^GB250,3,3^FS
-^CF0,60^FO100,520^FD{w} kg GGG^FS
+^CF0,60^FO100,520^FD{w} kg^FS
 
 ^FX QR code.
 ^FO480,415
